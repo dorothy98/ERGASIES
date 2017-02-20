@@ -1,4 +1,4 @@
-n = raw_input("Parakalw eisagete arithmous xwrismenous me keno: ")
+n = raw_input("Parakalw eisagete mia lista arithmwn. Oi arithmoi na einai xwrismenoi me keno: ")
 numlist = n.split()
 numlist = [int(a) for a in numlist] 
 zeros = numlist.count(0)
