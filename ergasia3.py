@@ -6,5 +6,5 @@ while 0 in numlist:
  numlist.remove(0)
 zerolist = [0] * zeros
 numberlist = numlist + zerolist
-print "H lista pou dothike, me ola ta mhdenika metafermena sto telos, einai h ekshs: "
+print "H lista pou dothike, me ola ta mhdenika stoixeia metafermena sto telos, einai h ekshs: "
 print numberlist
