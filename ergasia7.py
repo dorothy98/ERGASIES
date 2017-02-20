@@ -26,10 +26,9 @@ for status2 in stuff:
      wordlist2 = utf8string2.split()
      statuses2 = statuses2 + wordlist2
 plithos_lexewn2 = len(statuses2)
-result = (plithos_lexewn1 > plithos_lexewn2)
-if result == True:
+if (plithos_lexewn1 > plithos_lexewn2) == True:
  print "O xrhsths me tis perissoteres lekseis sta teleytaia 10 tweets einai o", u1, "me synolika", plithos_lexewn1, "lekseis,\n enw o xrhsths", u2, "eixe grapsei", plithos_lexewn2, "lekseis."
-else:
+if (plithos_lexewn1 < plithos_lexewn2) == True:
   print "O xrhsths me tis perissoteres lekseis sta teleytaia 10 tweets einai o", u2, "me synolika", plithos_lexewn2, "lekseis,\n enw o xrhsths", u1, "eixe grapsei", plithos_lexewn1, "lekseis."
-
-     
+if (plithos_lexewn1 == plithos_lexewn2):
+ print "Oi dyo xrhstes", u1, "kai", u2,"exoun grapsei twn idio arithmo leksewn (",plithos_lexewn1,") sta teleytaia tous 10 tweets."
