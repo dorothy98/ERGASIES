@@ -1,4 +1,4 @@
-x = raw_input("Pata ena plhktro kai meta enter gia na emfanistoun oi arithmoi Harshad mexri to 1000: ")
+x = raw_input("-->Pata ena plhktro kai meta enter gia na emfanistoun oi arithmoi Harshad mexri to 1000: ")
 if x != '':
  harshad = []
  for n in range(1,1001):
@@ -9,7 +9,7 @@ if x != '':
   if n % dsum == 0:
    harshad.append(n)
  print harshad
-y = raw_input("Pata ena plhktro kai meta enter gia na emfanistoun oi arithmoi mexri to 1000 pou diairountai apo to ginomeno twn pshfiwn tous: ")
+y = raw_input("-->Pata ena plhktro kai meta enter gia na emfanistoun oi arithmoi mexri to 1000 pou diairountai apo to ginomeno twn pshfiwn tous: ")
 if y !='':
  harshad_gin = []
  for h in range(1,1001):
@@ -21,5 +21,11 @@ if y !='':
    if h % dgin == 0 :
     harshad_gin.append(h)
  print harshad_gin
-
-    
+z = raw_input("-->Pata ena plhktro kai meta enter gia na emfanistoun oi arithmoi pou einai Harshad mexri to 1000 kai pou diairountai apo to ginomeno twn pshfiwn tous: ")
+if z !='':
+ last_harshad =[]
+ for i in harshad:
+  for j in harshad_gin:
+   if i == j:
+    last_harshad.append(i)
+print last_harshad
