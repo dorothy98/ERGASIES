@@ -9,7 +9,7 @@ access_secret = 'oZNnm2PjeV51PllnoRLqDPumcgaSProTE3K5Jt26MqBgf'
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
-u1 = raw_input("parakalw dwse to username tou prwtou xrhsth: ")
+u1 = raw_input("-->Username tou prwtou xrhsth: ")
 stuff = api.user_timeline(screen_name = u1, count = 11, include_rts = True)
 statuses1 = []
 for status1 in stuff:
@@ -18,7 +18,7 @@ for status1 in stuff:
      wordlist1 = utf8string1.split()
      statuses1 = statuses1 + wordlist1
 plithos_lexewn1 = len(statuses1)
-u2 = raw_input("parakalw dwse to username tou deuterou xrhsth: ")
+u2 = raw_input("-->Username tou deuterou xrhsth: ")
 stuff = api.user_timeline(screen_name = u2, count = 11, include_rts = True)
 statuses2 = []
 for status2 in stuff:
